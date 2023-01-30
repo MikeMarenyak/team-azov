@@ -1,5 +1,5 @@
 
-.Favorites {
+.favorites {
     padding-top: 60px;
     padding-bottom: 60px;
     @include tablet {
@@ -15,7 +15,7 @@
   }
   
   
-  .Favorites__titel {
+  .favorites__titel {
     @include fonts(700, 28px, calc(32 / 28));
     text-align: center;
     margin-bottom: 20px;
@@ -27,7 +27,7 @@
     }
   }
   
-  .Favorites__text {
+  .favorites__text {
     @include fonts(null, 14px, calc(16 / 14));
     text-align:  center;
     margin-bottom: 60px;
@@ -40,7 +40,7 @@
     }
   }
   
-  .Favorites__list {
+  .favorites__list {
     padding: 0;
     margin: 0;
     display: flex;
@@ -58,7 +58,7 @@
   }
   
   
-  .Favorites__item {
+  .favorites__item {
     width: 100%;
     height: auto;
     padding: 17px;
@@ -79,6 +79,9 @@
       @include tablet {
         display: block;
       }
+    }
+    &:hover {
+      border-color: #BBF330;
     }
   }
   
